@@ -1,0 +1,26 @@
+section.home {
+  width: 70%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+section.home > div.body-text {
+  margin-top: 150px;
+  width: 50%;
+}
+
+section.home > div.body-text > h1 {
+  font-size: 60px;
+}
+
+section.home > div.body-text > h3 {
+  font-size: 36px;
+}
+
+section.home > div.img {
+  margin-top: 175px;
+}
+
+section.home > div.img > img {
+  border-radius: 50%;
+}

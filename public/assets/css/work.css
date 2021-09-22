@@ -1,0 +1,54 @@
+section.work-main {
+  height: 100%;
+  width: 75vw;
+  margin: 0 0 0 25vw;
+}
+
+section.work-main > h1.featured {
+  margin-top: 4rem;
+}
+
+section.work-main {
+  padding-top: 2rem;
+  height: 100%;
+}
+
+section.work-main > div.featured-card {
+  padding: auto;
+  height: 60vh;
+}
+
+section.work-main > div.featured-card > div.card-img {
+  height: 50vh;
+  width: 30vw;
+}
+
+section.work-main div.container > div.featured-card > div.card-img > img {
+  width: fit-content;
+}
+
+section.work-main > div.featured-card > div.project-text {
+  margin: 0;
+  width: 50vw;
+  padding-right: 10vw;
+}
+
+section.projects-section {
+  clear: both;
+}
+
+section.projects-section > ul.projects-grid {
+  display: grid;
+  position: relative;
+  list-style: none;
+  border: 2px solid black;
+  grid-template-columns: 100px 100px 100px;
+  gap: 15px;
+}
+
+section.projects-section > ul.projects-grid > li.grid-item {
+  border: 1px solid white;
+}
+
+section.projects-section > ul.projects-grid > li.grid-item > div.grid-inner {
+}
