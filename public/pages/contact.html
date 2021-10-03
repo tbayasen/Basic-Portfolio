@@ -1,58 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width-device-width, inital-scale=1.0" />
-    <title>Portfolio</title>
 
-    <link rel="stylesheet" href="../assets/css/style.css" />
-    <!-- Icons -->
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
-      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
-      crossorigin="anonymous"
-    />
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, inital-scale=1.0" />
+  <title>Portfolio</title>
 
-  <body>
-    <div class="main">
-      <nav id="navBar">
-        <section class="logo left">
-          <img src="https://via.placeholder.com/50" alt="placeholder-logo" />
-        </section>
-        <section class="links right">
-          <ul class="link-list">
-            <li
-              class="link nav-btn"
-              id="home-btn"
-              onclick="location.href='home.html';"
-            >
-              home
-            </li>
-            <li
-              class="link nav-btn"
-              id="work-btn"
-              onclick="location.href='work.html';"
-            >
-              work
-            </li>
-            <li
-              class="link nav-btn"
-              id="contact-btn"
-              onclick="location.href='contact.html';"
-            >
-              contact
-            </li>
-          </ul>
-        </section>
-      </nav>
-      <nav class="left" id="sideNav">
-        <ul class="icons-list">
-          <li id="icon" class="icon"><i class="fab fa-github fa-2x"></i></li>
-          <li id="icon"><i class="fab fa-linkedin fa-2x"></i></li>
+  <link rel="stylesheet" href="../assets/css/style.css" />
+  <link rel="stylesheet" href="../assets/css/contact.css">
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+</head>
+
+<body>
+  <div class="container">
+    <nav id="navBar">
+      <section class="logo left">
+        <img src="https://via.placeholder.com/50" alt="placeholder-logo" />
+      </section>
+      <section class="links right">
+        <ul class="link-list">
+          <li class="link nav-btn" id="home-btn" onclick="location.href='home.html';">
+            home
+          </li>
+          <li class="link nav-btn" id="work-btn" onclick="location.href='work.html';">
+            work
+          </li>
+          <li class="link nav-btn" id="contact-btn" onclick="location.href='contact.html';">
+            contact
+          </li>
         </ul>
-      </nav>
+      </section>
+    </nav>
+    <nav class="left" id="sideNav">
+      <ul class="icons-list">
+        <li id="icon" class="icon"><i class="fab fa-github fa-2x"></i></li>
+        <li id="icon"><i class="fab fa-linkedin fa-2x"></i></li>
+      </ul>
+    </nav>
+    <div class="main">
       <section class="contact-main">
         <div class="contact-inner">
           <h2 class="contact-header">
@@ -63,11 +50,13 @@
               I might be looking for more work or new projects to work so feel
               free to contact me and I'll do my best to get back to you!
             </p>
-            <button class="contact-btn">Reach Out!</button>
+            <a href="mailto:tyronejbayasen@gmail.com" id="contact-btn">Reach Out!</a>
           </div>
         </div>
       </section>
     </div>
-    <div id="footer">Designed and Built by Tyrone Bay-asen</div>
-  </body>
+  </div>
+  <footer id="footer">Designed and Built by Tyrone Bay-asen</footer>
+</body>
+
 </html>

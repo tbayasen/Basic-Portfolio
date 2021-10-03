@@ -4,6 +4,10 @@ section.home {
   margin: 0 auto;
 }
 
+div.body-text > h1 {
+  color: #ebecf0;
+}
+
 section.home > div.body-text {
   margin-top: 150px;
   width: 50%;

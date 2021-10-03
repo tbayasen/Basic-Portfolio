@@ -12,7 +12,7 @@ body {
   width: 100vw;
   margin: 0;
   padding: 0;
-  background-color: lightblue;
+  background-color: #1c2e4a;
   overflow-x: hidden;
 }
 body > .main {
@@ -22,7 +22,7 @@ body > .main {
 #navBar {
   height: 10vh;
   width: 100%;
-  background-color: coral;
+  background-color: #1c2e4a;
 }
 
 .left {
@@ -50,6 +50,7 @@ section.links {
 }
 
 section.links > ul.link-list {
+  color: #0;
   margin: 30px;
 }
 
@@ -76,6 +77,7 @@ section.links > ul.link-list > li.nav-btn {
 nav#sideNav > ul.icons-list {
   list-style-type: none;
   height: 100%;
+  color: whitesmoke;
 }
 
 nav#sideNav > ul.icons-list > li#icon {
@@ -86,6 +88,6 @@ nav#sideNav > ul.icons-list > li.icon > i.fa-github {
   width: 16px;
 }
 
-section#footer {
+footer#footer {
   text-align: center;
 }

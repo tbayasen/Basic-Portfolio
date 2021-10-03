@@ -1,60 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width-device-width, inital-scale=1.0" />
-    <title>Portfolio</title>
 
-    <link rel="stylesheet" href="../assets/css/style.css" />
-    <link rel="stylesheet" href="../assets/css/work.css" />
-    <!-- Icons -->
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
-      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
-      crossorigin="anonymous"
-    />
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, inital-scale=1.0" />
+  <title>Portfolio</title>
 
-  <body>
-    <div class="main">
-      <nav id="navBar">
-        <section class="logo left">
-          <img src="https://via.placeholder.com/50" alt="placeholder-logo" />
-        </section>
-        <section class="links right">
-          <ul class="link-list">
-            <li
-              class="link nav-btn"
-              id="home-btn"
-              onclick="location.href='home.html';"
-            >
-              home
-            </li>
-            <li
-              class="link nav-btn"
-              id="work-btn"
-              onclick="location.href='work.html';"
-            >
-              work
-            </li>
-            <li
-              class="link nav-btn"
-              id="contact-btn"
-              onclick="location.href='contact.html';"
-            >
-              contact
-            </li>
-          </ul>
-        </section>
-      </nav>
-      <nav class="left" id="sideNav">
-        <ul class="icons-list">
-          <li id="icon" class="icon"><i class="fab fa-github fa-2x"></i></li>
-          <li id="icon"><i class="fab fa-linkedin fa-2x"></i></li>
+  <link rel="stylesheet" href="../assets/css/style.css" />
+  <link rel="stylesheet" href="../assets/css/work.css" />
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+</head>
+
+<body>
+  <div class="container">
+    <nav id="navBar">
+      <section class="logo left">
+        <img src="https://via.placeholder.com/50" alt="placeholder-logo" />
+      </section>
+      <section class="links right">
+        <ul class="link-list">
+          <li class="link nav-btn" id="home-btn" onclick="location.href='home.html';">
+            home
+          </li>
+          <li class="link nav-btn" id="work-btn" onclick="location.href='work.html';">
+            work
+          </li>
+          <li class="link nav-btn" id="contact-btn" onclick="location.href='contact.html';">
+            contact
+          </li>
         </ul>
-      </nav>
-      <div class="work-main left clearfix">
+      </section>
+    </nav>
+    <nav class="left" id="sideNav">
+      <ul class="icons-list">
+        <li id="icon" class="icon"><i class="fab fa-github fa-2x"></i></li>
+        <li id="icon"><i class="fab fa-linkedin fa-2x"></i></li>
+      </ul>
+    </nav>
+    <div class="main">
+      <section class="work-main left clearfix">
         <h1 class="featured">Featured Projects</h1>
         <div class="featured-card card">
           <div class="card-img left">
@@ -69,39 +55,49 @@
               Soluta, doloremque ipsa!
             </p>
           </div>
-        </div>
-        <section class="projects-section">
-          <h1 id="other-projects-header">Other Noteworthy Projects</h1>
-          <p id="archive-text">Archived Projects</p>
-          <ul class="projects-grid">
-            <li class="grid-item">
-              <div class="grid-inner">
-                <h3 class="project-title">Project 1</h3>
-                <p class="project-description">This is a description</p>
-              </div>
-            </li>
-            <li class="grid-item">
-              <div class="grid-inner">
-                <h3 class="project-title">Project 1</h3>
-                <p class="project-description">This is a description</p>
-              </div>
-            </li>
-            <li class="grid-item">
-              <div class="grid-inner">
-                <h3 class="project-title">Project 1</h3>
-                <p class="project-description">This is a description</p>
-              </div>
-            </li>
-            <li class="grid-item">
-              <div class="grid-inner">
-                <h3 class="project-title">Project 1</h3>
-                <p class="project-description">This is a description</p>
-              </div>
-            </li>
-          </ul>
-        </section>
-      </div>
+      </section>
+      <section class="projects-section">
+        <h1 id="other-projects-header">Other Noteworthy Projects</h1>
+        <p id="archive-text">Archived Projects</p>
+        <ul class="projects-grid">
+          <li class="grid-item">
+            <div class="grid-inner">
+              <h3 class="project-title">Project 1</h3>
+              <p class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quaerat
+                blanditiis natus, voluptate saepe atque voluptatibus dolorum aliquid voluptatem omnis! Doloribus iste
+                odio consequatur ex quaerat necessitatibus aperiam maiores nisi.</p>
+            </div>
+          </li>
+          <li class="grid-item">
+            <div class="grid-inner">
+              <h3 class="project-title">Project 2</h3>
+              <p class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, aperiam.
+                Nihil nisi quasi provident earum blanditiis deleniti vel officia eum ab odit similique reiciendis
+                accusamus voluptates velit nobis, possimus minus.</p>
+            </div>
+          </li>
+          <li class="grid-item">
+            <div class="grid-inner">
+              <h3 class="project-title">Project 3</h3>
+              <p class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex nulla nesciunt
+                veritatis autem error reprehenderit, laudantium dolore nihil dolorem similique nostrum obcaecati at,
+                temporibus consectetur dolorum quis optio molestiae. Non!</p>
+            </div>
+          </li>
+          <li class="grid-item">
+            <div class="grid-inner">
+              <h3 class="project-title">Project 4</h3>
+              <p class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt voluptas
+                autem totam deleniti, hic aperiam porro. Ullam nulla, ipsa modi nemo, ratione, illo nihil veniam
+                doloribus incidunt perferendis error dolorem?</p>
+            </div>
+          </li>
+        </ul>
+      </section>
     </div>
-    <div id="footer">Designed and Built by Tyrone Bay-asen</div>
-  </body>
+  </div>
+  </div>
+  <footer id="footer">Designed and Built by Tyrone Bay-asen</footer>
+</body>
+
 </html>

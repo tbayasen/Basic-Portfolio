@@ -1,0 +1,8 @@
+div.main {
+  width: 70%;
+  margin: 0 auto;
+}
+
+a#contact-btn::hover {
+  cursor: pointer;
+}
