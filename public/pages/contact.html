@@ -1,62 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, inital-scale=1.0" />
+    <title>Portfolio</title>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, inital-scale=1.0" />
-  <title>Portfolio</title>
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <link rel="stylesheet" href="../assets/css/contact.css" />
+    <!-- Icons -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+  </head>
 
-  <link rel="stylesheet" href="../assets/css/style.css" />
-  <link rel="stylesheet" href="../assets/css/contact.css">
-  <!-- Icons -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
-    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
-</head>
-
-<body>
-  <div class="container">
-    <nav id="navBar">
-      <section class="logo left">
-        <img src="https://via.placeholder.com/50" alt="placeholder-logo" />
-      </section>
-      <section class="links right">
-        <ul class="link-list">
-          <li class="link nav-btn" id="home-btn" onclick="location.href='home.html';">
-            home
-          </li>
-          <li class="link nav-btn" id="work-btn" onclick="location.href='work.html';">
-            work
-          </li>
-          <li class="link nav-btn" id="contact-btn" onclick="location.href='contact.html';">
-            contact
-          </li>
+  <body>
+    <div class="container">
+      <nav id="navBar">
+        <section class="logo left">
+          <img src="https://via.placeholder.com/50" alt="placeholder-logo" />
+        </section>
+        <section class="links right">
+          <ul class="link-list text">
+            <li
+              class="link nav-btn text"
+              id="home-btn"
+              onclick="location.href='home.html';"
+            >
+              home
+            </li>
+            <li
+              class="link nav-btn text"
+              id="work-btn"
+              onclick="location.href='work.html';"
+            >
+              work
+            </li>
+            <li
+              class="link nav-btn text"
+              id="contact-btn"
+              onclick="location.href='contact.html';"
+            >
+              contact
+            </li>
+          </ul>
+        </section>
+      </nav>
+      <nav class="left" id="sideNav">
+        <ul class="icons-list">
+          <li id="icon" class="icon"><i class="fab fa-github fa-2x"></i></li>
+          <li id="icon"><i class="fab fa-linkedin fa-2x"></i></li>
         </ul>
-      </section>
-    </nav>
-    <nav class="left" id="sideNav">
-      <ul class="icons-list">
-        <li id="icon" class="icon"><i class="fab fa-github fa-2x"></i></li>
-        <li id="icon"><i class="fab fa-linkedin fa-2x"></i></li>
-      </ul>
-    </nav>
-    <div class="main">
-      <section class="contact-main">
-        <div class="contact-inner">
-          <h2 class="contact-header">
-            Have any questions or want to work together?
-          </h2>
-          <div class="contact-body">
-            <p class="body-text">
-              I might be looking for more work or new projects to work so feel
-              free to contact me and I'll do my best to get back to you!
-            </p>
-            <a href="mailto:tyronejbayasen@gmail.com" id="contact-btn">Reach Out!</a>
+      </nav>
+      <div class="main">
+        <section class="contact-main">
+          <div class="contact-inner">
+            <h2 class="contact-header text-semi-bold">Reach Out</h2>
+            <div class="contact-body">
+              <p class="body-text text">
+                I might be looking for more work or new projects to work so feel
+                free to contact me and I'll do my best to get back to you!
+              </p>
+              <a
+                class="email-link text"
+                href="mailto:tyronejbayasen@gmail.com"
+                id="contact-btn"
+                >Reach Out!</a
+              >
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
+      </div>
     </div>
-  </div>
-  <footer id="footer">Designed and Built by Tyrone Bay-asen</footer>
-</body>
-
+    <footer id="footer">Designed and Built by Tyrone Bay-asen</footer>
+  </body>
 </html>

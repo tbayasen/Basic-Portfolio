@@ -1,11 +1,12 @@
 section.home {
   width: 70%;
-  height: 100%;
+  height: min-content;
   margin: 0 auto;
 }
 
-div.body-text > h1 {
-  color: #ebecf0;
+div.body-text > div > h1 {
+  /* color: #ebecf0; */
+  color: #00bcd4;
 }
 
 section.home > div.body-text {
@@ -13,18 +14,25 @@ section.home > div.body-text {
   width: 50%;
 }
 
-section.home > div.body-text > h1 {
+div.body-text > div > h2.featured-text {
   font-size: 60px;
+  color: #ebecf0;
 }
 
-section.home > div.body-text > h3 {
-  font-size: 36px;
+div.body-text > div > h3 {
+  font-size: 30px;
+  color: lightslategray;
 }
 
-section.home > div.img {
-  margin-top: 175px;
+div.img {
+  margin-top: 185px;
+  margin-left: 8em;
 }
 
 section.home > div.img > img {
-  border-radius: 50%;
+  border-radius: 10%;
+}
+
+h2.featured-text {
+  margin: 0 auto;
 }

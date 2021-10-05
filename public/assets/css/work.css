@@ -19,25 +19,51 @@ section.work-main {
 section.work-main > div.featured-card {
   padding: auto;
   height: 50vh;
+  width: 70vw;
 }
 
-section.work-main > div.featured-card > div.card-img {
+div.featured-card > div.card-img {
   height: 50vh;
   width: 30vw;
 }
 
-section.work-main div.main > div.featured-card > div.card-img > img {
+div.featured-card > div.card-img > img {
   width: fit-content;
 }
 
-section.work-main > div.featured-card > div.project-text {
+div.featured-card > div.project-text {
+  position: relative;
+  text-align: right;
+  color: whitesmoke;
   margin: 0;
-  width: 50vw;
-  padding-right: 10vw;
+  padding: 3rem 4rem;
+}
+
+div.project-text > h1.featured-header {
+  color: #4cc5ae;
+  font-size: 1.2rem;
+}
+
+div.project-text > h2.featured-name {
+  font-size: 2rem;
 }
 
 section.projects-section {
   clear: both;
+}
+
+section.projects-section > h1.other-projects-header {
+  text-align: center;
+  color: whitesmoke;
+}
+
+section.projects-section > p.archive-text {
+  text-align: center;
+  color: #4cc5ae;
+}
+
+section.projects-section > p.archive-text:hover {
+  cursor: pointer;
 }
 
 section.projects-section > ul.projects-grid {
@@ -53,6 +79,27 @@ section.projects-section > ul.projects-grid {
 section.projects-section > ul.projects-grid > li.grid-item {
   border: 1px solid white;
 }
+li.grid-item > div.grid-inner {
+  padding: 1rem 1rem;
+}
 
-section.projects-section > ul.projects-grid > li.grid-item > div.grid-inner {
+div.grid-inner > h1.project-title {
+  text-align: center;
+  color: white;
+}
+
+div.grid-inner > h2.project-description {
+  color: lightslategrey;
+  font-size: 1rem;
+}
+
+div.grid-inner > ul.project-tech-list {
+  list-style-type: none;
+}
+
+ul.project-tech-list > li.tech {
+  color: lightslategrey;
+  display: inline;
+  vertical-align: middle;
+  margin: auto;
 }

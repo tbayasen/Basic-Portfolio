@@ -1,4 +1,5 @@
 div.main {
+  height: 80vh;
   width: 70%;
   margin: 0 auto;
 }
@@ -6,3 +7,38 @@ div.main {
 a#contact-btn::hover {
   cursor: pointer;
 }
+
+section.contact-main {
+  height: 350px;
+  padding-top: 25vh;
+  text-align: center;
+}
+
+div.contact-inner > h2.contact-header {
+  color: #cacaca;
+  font-size: 2.5rem;
+}
+
+div.contact-body > a {
+  margin-top: 2rem;
+}
+
+div.contact-body > p.body-text {
+  font-family: "Montserrat-Regular";
+  height: 5rem;
+  margin: 2rem auto;
+  color: lightslategray;
+}
+
+div.contact-body > a.email-link {
+  color: #4cc5ae;
+  text-decoration: none;
+  border-radius: 4px;
+  border: 2px solid #4cc5ae;
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+}
+
+/* div.contact-body > a.email-link:visited {
+  color: #4cc5ae;
+} */
