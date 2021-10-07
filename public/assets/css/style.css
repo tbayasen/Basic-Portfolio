@@ -1,3 +1,7 @@
+html {
+  height: 100%;
+}
+
 .clearfix {
   overflow: auto;
 }
@@ -49,10 +53,12 @@ body {
   font-family: "Montserrat-Bold";
 }
 
-body > .container {
+div.container {
+  overflow: auto;
   height: 100%;
   width: 100%;
 }
+
 #navBar {
   height: 10vh;
   width: 100%;
@@ -92,7 +98,7 @@ section.links > ul > .link {
   text-transform: uppercase;
   list-style-type: none;
   vertical-align: middle;
-  color: #4cc5ae;
+  color: #00bcd4;
 }
 
 section.links > ul.link-list > li.nav-btn {
@@ -123,7 +129,7 @@ nav#sideNav > ul.icons-list > li.icon > i.fa-github {
 }
 
 footer#footer {
-  bottom: 2rem;
+  padding: 1.5rem 0;
   text-align: center;
-  color: whitesmoke;
+  color: #00bcd4;
 }
