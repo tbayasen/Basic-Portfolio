@@ -117,5 +117,5 @@ ul.project-tech-list > li.tech {
   display: inline;
   vertical-align: middle;
   margin: auto;
-  padding: auto;
+  padding: 0 1rem;
 }
